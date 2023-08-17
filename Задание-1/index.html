@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Общая информация</legend>
+            <div>
+                <label for="last-name">Фамилия</label>
+                <input id="last-name" type="text" placeholder="Иванов" class="common">
+            </div>
+            <div>
+                <label for="first-name">Имя</label>
+                <input id="first-name" type="text" placeholder="Иван" class="common2">
+            </div>
+            <div>
+                <label for="third-name">Отчество</label>
+                <input id="third-name" type="text" placeholder="Иванович" class="common1">
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input id="email" type="text" placeholder="example@gmail.com" class="common3">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Пол</legend>
+            <input type="radio" id="men" name="sex" class="sex">
+            <label for="men">М</label>
+            <input type="radio" id="women" name="sex" class="sex">
+            <label for="women">Ж</label>
+        </fieldset>
+        <fieldset>
+            <legend>Хобби</legend>
+            <input type="checkbox" id="drawing" class="hobby">
+            <label for="drawing">Рисование</label>
+            <input type="checkbox" id="reading" class="hobby">
+            <label for="reading">Чтение</label>
+            <input type="checkbox" id="programming" class="hobby">
+            <label for="programming">Программирование</label>
+            <input type="checkbox" id="cooking" class="hobby">
+            <label for="cooking">Готовить</label>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>

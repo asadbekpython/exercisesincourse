@@ -1,0 +1,58 @@
+body {
+	background-color: #fffded;
+	font-family: Roboto, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main-header {
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #753C20;
+	text-align: center;
+	margin: 40px;
+	padding-top: 40px;
+}
+
+.first {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1140px;
+	margin: 40px auto;
+}
+
+.small-first {
+	width: 700px;
+}
+
+.names {
+	font-size: 36px;
+	font-weight: lighter;
+	text-align: center;
+	color: #D89B82;
+}
+
+.describe {
+	font-size: 18px;
+}
+
+#last-h2 {
+	text-align: center;
+	margin-top: 80px;
+	color: #E78326;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#last-p {
+	margin-top: 40px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#email {
+	color: #E78326;
+}

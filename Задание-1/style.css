@@ -1,0 +1,27 @@
+form {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 20px;
+}
+fieldset {
+    margin-bottom: 20px;
+}
+.sex {
+    margin-left: 170px;
+}
+.hobby {
+    margin-left: 23px;
+}
+.common {
+    margin-left: 100px;
+}
+.common1 {
+    margin-left: 98px;
+}
+.common2 {
+    margin-left: 142px;
+}
+.common3 {
+    margin-left: 134px;
+}
